@@ -42,7 +42,7 @@ urlpatterns = [
     path('chats/', include('chat.urls')),
     path('vc/', include('videocall.urls')),
     path('friend/', include('friend.urls', namespace='friend')),
-]
+] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
 
 if settings.DEBUG:
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
