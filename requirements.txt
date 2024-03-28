@@ -13,7 +13,7 @@ crispy-bootstrap5==2024.2
 cryptography==3.4.7
 daphne==3.0.2
 defusedxml==0.7.1
-Django==4.0.7
+Django
 django-allauth==0.61.1
 django-ckeditor==6.7.1
 django-cleanup==8.1.0
