@@ -34,7 +34,7 @@ SECRET_KEY = "^5j#@n*!c6*g^phi@($0-shjyno9+nag6k&8%lgx8rze*c_&t4"
 DEBUG = os.getenv("DEBUG")
 
 ALLOWED_HOSTS = ['*'] 
-CSRF_TRUSTED_ORIGINS = ['https://socialmediaapp-prod.up.railway.app/']
+CSRF_TRUSTED_ORIGINS = ['https://*.railway.app', 'https://socialmediaapp-prod.up.railway.app']
 
 # Application definition
 
