@@ -19,6 +19,7 @@ django-ckeditor==6.7.1
 django-cleanup==8.1.0
 django-crispy-forms==2.1
 django-js-asset==2.2.0
+gunicorn==21.2.0
 hyperlink==21.0.0
 idna==3.6
 incremental==22.10.0
